@@ -5,11 +5,15 @@ var bot = new Discord.Client();
 
 
 	bot.on('message', message=> {
-		var prefix = '%'
+		var prefix = '§'
 		var msg = message.content;
 		
 		if (msg === prefix + 'hallå') {
 			message.channel.send('hejsan', {
+			});
+		}
+		if (msg === prefix + 'tjena') {
+			message.channel.send('/tts', {
 			});
 		}
 	});
