@@ -1,7 +1,5 @@
-# LESTER
-
 # Discord_Bot
-en discord bot
+En discord bot som heter Lester
 # Funktioner
 - Spela musk
 - Kolla väder (främst i tullinge)
