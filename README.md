@@ -29,7 +29,7 @@ A discord bot named Lester made mainly for listening to music while you are in a
   - §skip 
     - Skips to the next song
 - **Weather**
-  -§weather
+  - §weather
     - Checks the weather in Tullinge
 - **Text to speech**
   - §tts (what you want to be read)
