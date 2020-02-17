@@ -44,6 +44,6 @@ A discord bot named Lester made mainly for listening to music while you are in a
     - Counter-Strike: Global offensive statistics
   - **§stats r6s** (use**r/group)
     - Rainbow six siege statistics
-#### Help
+### Help
   - **§help**
     - Gives you some information and help whit the discord bot
