@@ -8,7 +8,7 @@ A discord bot named Lester made mainly for listening to music while you are in a
 ## Reqirements
 - Node.js
 - Discord
-### Key Features
+## Key Features
 - Play music on demand 
 - Chech the weather status (Mainly in Tullinge)
 - Text to speech
@@ -16,34 +16,34 @@ A discord bot named Lester made mainly for listening to music while you are in a
 - Check statistics in Counter-strike: Global offensive
 - Check statistics in Rainbow six siege
 - A help command if needed by the user
-### Commands
-- **Music**
-  - §play (the song you want to play)
+## Commands
+### Music
+  - **§play** (the song you want to play)
     - Plays a song
-  - §start 
+  - **§start** 
     - Starts a paused or queued song
-  - §stop 
+  - **§stop** 
     - Pauses the song being played
-  - §queue (the song you want to queue)
+  - **§queue** (the song you want to queue)
     - Queues a song
-  - §skip 
+  - **§skip** 
     - Skips to the next song
-- **Weather**
-  - §weather
+### Weather
+  - **§weather**
     - Checks the weather in Tullinge
-- **Text to speech**
-  - §tts (what you want to be read)
+### Text to speech
+  - **§tts** (what you want to be read)
     - Reads what you wrote
-- **Timer/alarm**
-  - §timer (the time in seconds)
+### Timer/alarm
+  - **§timer** (the time in seconds)
     - Goes off after the time ran out
-  - §alarm (when you want it to go off)
+  - **§alarm** (when you want it to go off)
     - Goes off at the given time
-- **Statistics**
-  - §stats cs:go (user)
+### Statistics
+  - **§stats cs:go** (user)
     - Counter-Strike: Global offensive statistics
-  - §stats r6s (user/group)
+  - **§stats r6s** (use**r/group)
     - Rainbow six siege statistics
-- **Help**
-  - §help
+#### Help
+  - **§help**
     - Gives you some information and help whit the discord bot
