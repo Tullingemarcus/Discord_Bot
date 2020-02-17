@@ -19,11 +19,13 @@ A discord bot named Lester made mainly for listening to music while you are in a
 ### Commands
 - **Music**
   - §play (the song you want to play)
+    - Plays a song
   - §start 
     - Starts a paused or queued song
   - §stop 
     - Pauses the song being played
   - §queue (the song you want to queue)
+    - Queues a song
   - §skip 
     - Skips to the next song
 - **Weather**
@@ -35,9 +37,9 @@ A discord bot named Lester made mainly for listening to music while you are in a
   - §timer (the time in seconds)
   - §alarm (when you want it to go off)
 - **Statistics**
-  - §cs:go (user)
+  - §stats cs:go (user)
     - Counter-Strike: Global offensive statistics
-  - §r6s (user)
+  - §stats r6s (user/group)
     - Rainbow six siege statistics
 - **Help**
   - §help
