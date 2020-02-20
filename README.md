@@ -1,14 +1,51 @@
-# Discord_Bot
-En discord bot som heter Lester
-# Funktioner
-- Spela musk
-- Kolla väder (främst i tullinge)
-- läsa upp saker (TTS)
-- Starta ett alarm eller en timer
-- Kolla statistik i Counter-strike: Global offensive
-- Kolla statistik i Rainbow six siege
-- Det ska finnas ett hjälp komando för att hjälpa användaren
-# Kommandon
-- Det kommer finnas ett perfix som man ska skirva in före sitt kommando för att det inte ska förväxlas med ett vanligt meddelande
-- De ska vara lätta att skriva och komma ihåg 
-- Alla komandon ska vara uppbyggda och strukturerade på samma sätt för att förenkla användningen av botten
+# Discord Bot
+[![Build Status](https://travis-ci.com/tullinge/booking.svg?branch=master)](https://travis-ci.com/Tullingemarcus/Discord_bot)
+
+A discord bot named Lester made mainly for listening to music while you are in a server in discord.
+
+[Add Lester to your server](link)
+
+## Reqirements
+- Node.js
+- Discord
+## Key Features
+- Play music on demand 
+- Chech the weather status (Mainly in Tullinge)
+- Text to speech
+- Start an alarm or timer
+- Check statistics in Counter-strike: Global offensive
+- Check statistics in Rainbow six siege
+- A help command if needed by the user
+## Commands
+### Music
+  - **§play** (song mane)
+    - Plays a song
+  - **§start** 
+    - Starts a paused or queued song
+  - **§stop** 
+    - Pauses the song being played
+  - **§queue** "the song you want to queue"
+    - Queues a song
+  - **§skip** 
+    - Skips to the next song
+### Weather
+  - **§weather**
+    - Checks the weather in Tullinge
+### Text to speech
+  - **§tts** "what you want to be read"
+    - Reads what you wrote
+### Timer/alarm
+  - **§timer** (the time in seconds)
+    - Goes off after the time ran out
+  - **§alarm** "when you want it to go off"
+    - Goes off at the given time
+### Statistics
+  - **§stats cs:go** (user)
+    - Counter-Strike: Global offensive statistics
+  - **§stats r6s** (user/group)
+    - Rainbow six siege statistics
+### Help
+  - **§help**
+    - Gives you some information and help whit the discord bot
+  - **§einar** (languages)
+    - Helps with a sertan programing languages and git
