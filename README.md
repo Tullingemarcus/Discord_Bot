@@ -7,7 +7,6 @@ A discord bot named Lester made mainly for listening to music while you are in a
 
 ## Reqirements
 - Node.js
-- Discord
 ## Key Features
 - Play music on demand 
 - Chech the weather status (Mainly in Tullinge)
