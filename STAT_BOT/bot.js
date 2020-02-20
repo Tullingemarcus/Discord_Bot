@@ -2,7 +2,7 @@ const Discord = require('discord.js-commando');
 const auth = require('./auth.json');
 const bot = new Discord.Client();
 
-bot.registry.registerGroup('music', 'Music');
+bot.registry.registerGroup('core', 'Core');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands');
 

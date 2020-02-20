@@ -6,7 +6,7 @@ class JoinChannelCommand extends commando.Command
     {
         super(client,{
             name: 'join',
-            group: 'music',
+            group: 'core',
             memberName: 'join',
             description: 'idk what this is'
         });
