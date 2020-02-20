@@ -1,9 +1,7 @@
 # Discord Bot
-[![Build Status](https://travis-ci.com/tullinge/booking.svg?branch=master)](https://travis-ci.com/Tullingemarcus/Discord_bot)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A discord bot named Lester made mainly for listening to music while you are in a server in discord.
-
-[Add Lester to your server](link)
+A general purposes discord bot named Lester.
 
 ## Reqirements
 - Node.js
