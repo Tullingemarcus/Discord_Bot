@@ -16,12 +16,10 @@ bot.on('message', message=> {
 	var msg = message.content;
 	
 	if (msg === prefix + 'hallå') {
-		message.channel.send('hejsan' + message.author, {
-		});
+		message.channel.send('hejsan' + message.author, {});
 	}
 	if (msg === prefix + 'tjena') {
-		message.channel.send('/tts', {
-		});
+		message.channel.send('/tts', {});
 	}
 });
 
