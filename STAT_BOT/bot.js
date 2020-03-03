@@ -18,9 +18,7 @@ bot.on('message', message=> {
 	if (msg === prefix + 'hallå') {
 		message.channel.send('hejsan' + message.author, {});
 	}
-	if (msg === prefix + 'tjena') {
-		message.channel.send('/tts', {});
-	}
+	
 });
 
 
