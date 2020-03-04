@@ -1,0 +1,1 @@
+var wether_api_key = '8d33732b07674ede445ecc469414d60a'

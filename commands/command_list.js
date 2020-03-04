@@ -1,0 +1,36 @@
+var command_dict = {
+    "join": join,
+    "leave": leave,
+    "stats csgo": stats_csgo,
+    "stats r6s": stats_r6s,
+    "music play": music_play,
+    "music stop": music_stop,
+    "music start": music_start,
+    "music queue": music_queue,
+    "music skip": music_,
+    "alarm": alarm,
+    "timer": timer,
+    "wether": wether,
+    "help": help,
+    "einar": einar,
+    "tts": tts,
+}
+
+var command_list = (
+    "join",
+    "leave",
+    "stats csgo",
+    "stats r6s",
+    "music play",
+    "music stop",
+    "music start",
+    "music queue",
+    "music skip",
+    "alarm",
+    "timer",
+    "wether",
+    "help",
+    "einar",
+    "tts",
+)
+  
