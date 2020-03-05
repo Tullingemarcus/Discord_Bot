@@ -6,11 +6,11 @@ A general purposes discord bot named Lester.
 ## Reqirements
 - Node.js
 ## Edit Prefix
- - node_modules -> discord.js-comando -> src ->client.js -> edit line 3, remove this 'CHOOSE PREFIX HERE' and add your prefix
+ - node_modules -> discord.js-comando -> src ->client.js -> edit line 3, remove this '[CHOOSE PREFIX HERE]' and add your prefix
  ```javascript
  constructor(options = {}) {
         if(typeof options.selfbot === 'undefined') options.selfbot = false;
-        if(typeof options.commandPrefix === 'undefined') options.commandPrefix = 'CHOOSE PREFIX HERE';
+        if(typeof options.commandPrefix === 'undefined') options.commandPrefix = '[CHOOSE PREFIX HERE]';
         if(options.commandPrefix === null) options.commandPrefix = '';
         if(typeof options.commandEditableDuration === 'undefined') options.commandEditableDuration = 30;
         if(typeof options.nonCommandEditable === 'undefined') options.nonCommandEditable = true;
