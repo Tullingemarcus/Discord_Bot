@@ -6,6 +6,7 @@ A general purposes discord bot named Lester.
 ## Reqirements
 - Node.js
 ## Key Features
+- Join & Leave
 - Play music on demand 
 - Chech the weather status (Mainly in Tullinge)
 - Text to speech
@@ -14,6 +15,11 @@ A general purposes discord bot named Lester.
 - Check statistics in Rainbow six siege
 - A help command if needed by the user
 ## Commands
+### Core commads
+  - **§join**
+   - The bot joins your channel
+  - **§leave**
+   - The bot leaves your channel
 ### Music
   - **§play** ('song name/youtube link')
     - Plays a song
