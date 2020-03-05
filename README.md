@@ -27,9 +27,9 @@ A general purposes discord bot named Lester.
     - Skips to the next song
 ### Weather
   - **§weather**
-    - Checks the weather in Tullinge
-  - **§weather** ('city') ('country code')
-    - Checks the wether in a city
+    - Checks the weather in chosen in the settings file
+  - **§weather city** ('city') ('country code')
+    - Checks the weather in a chosen city
 ### Text to speech
   - **§tts** ('what you want to be read')
     - Reads what you wrote
