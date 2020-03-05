@@ -5,6 +5,19 @@ A general purposes discord bot named Lester.
 
 ## Reqirements
 - Node.js
+## Edit Prefix
+ - node_modules -> discord.js-comando -> src ->client.js -> edit line 3, remove this 'CHOOSE PREFIX HERE' and add your prefix
+ ```javascript
+ constructor(options = {}) {
+        if(typeof options.selfbot === 'undefined') options.selfbot = false;
+        if(typeof options.commandPrefix === 'undefined') options.commandPrefix = 'CHOOSE PREFIX HERE';
+        if(options.commandPrefix === null) options.commandPrefix = '';
+        if(typeof options.commandEditableDuration === 'undefined') options.commandEditableDuration = 30;
+        if(typeof options.nonCommandEditable === 'undefined') options.nonCommandEditable = true;
+        if(typeof options.unknownCommandResponse === 'undefined') options.unknownCommandResponse = true;
+        super(options);
+```
+
 ## Key Features
 - Join & Leave the channel
 - Play music on demand 
@@ -54,3 +67,4 @@ A general purposes discord bot named Lester.
     - Gives you some information and help whit the discord bot
   - **§einar** ('languages')
     - Helps with a certain programing languages and git
+ 
