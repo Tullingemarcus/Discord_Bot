@@ -2,7 +2,7 @@ const Discord = require('discord.js-commando');
 const auth = require('./auth.json');
 const bot = new Discord.Client();
 const cmd_list = require('commands/command_list.js')
-const wether_api = require('api/wether_api_settings.js')
+const weather_api = require('api/wether_api_settings.js')
 const axios = require('axios') 
 
 bot.registry.registerGroup('core', 'Core');
@@ -25,15 +25,21 @@ bot.on('message', async, message=> {
 	if (msg === prefix + 'hallå') {
 		message.channel.send('hejsan' + message.author, {});
 	}
+	if (msg === prefix + 'help') {
+		message.channel.send('Hello I am Lester. I am a simple bot with the main functions\ of playing music, check the weather and set an alarm or timer.\ Here are some commands:\ §play\ §stop\ §skip\ §weather\ §timer\ §alarm\ for more information visit:\ https://github.com/Tullingemarcus/Discord_Bot/blob/master/README.md', {});
+	}
+
+	if (msg === prefix + 'einar') {
+		message.channel.send('Hello I am your programming teacher, I can help you with git and python\ ', {});
 	
-	if (msg === prefix + 'wether'){
-		let getwether = async () => {	
-			let response = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + wether_api.city + ',' + wether_api.country + '&appid=' + wether_api.api_key)
-			let wether = response.data
-			return wether
+	if (msg === prefix + 'weather'){
+		let getweather = async () => {	
+			let response = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + weather_api.city + ',' + weather_api.country + '&appid=' + weather_api.api_key)
+			let weather = response.data
+			return weather
 		}
-		let wether = await getwether()
-		console.log(wether)
+		let weather = await getweather()
+		console.log(weather)
 		wind_dict = {
 			"NE":{"min_deg": 23, "max_deg": 68, "direction": "nordöstlig"},
 			"E":{"min_deg": 68, "max_deg": 113, "direction": "östlig"},
@@ -45,24 +51,24 @@ bot.on('message', async, message=> {
 		}
 		temporary = "nordlig"
 		for (wind_direction in wind_dict)
-			if  (int(wether["wind"]["deg"]) < wind_dict[wind_direction]["min_deg"]) and (int(wether["wind"]["deg"]) < wind_dict[wind_direction]["max_deg"])
+			if  (int(weather["wind"]["deg"]) < wind_dict[wind_direction]["min_deg"]) and (int(weather["wind"]["deg"]) < wind_dict[wind_direction]["max_deg"])
 				var temporary = wind_dict["wind"]["direction"]
 		
-		wether["wind"]["deg"] = temporary
+		weather["wind"]["deg"] = temporary
 		
-		if (wether["clouds"]["all"] < 100)
-			wether["wind"]["all"] = "mycket målnigt"
-		elif (wether["clouds"]["all"] < 75)
-			wether["wind"]["all"] = "måtligt målnigt"
-		elif (wether["clouds"]["all"] < 50)
-			wether["wind"]["all"] = "något målnigt"
-		elif (wether["clouds"]["all"] < 25)
-			wether["wind"]["all"] = "lätt målnigt"
-		elif (wether["clouds"]["all"] < 5)
-			wether["wind"]["all"] = ""
+		if (weather["clouds"]["all"] < 100)
+			weather["wind"]["all"] = "mycket målnigt"
+		elif (weather["clouds"]["all"] < 75)
+			weather["wind"]["all"] = "måtligt målnigt"
+		elif (weather["clouds"]["all"] < 50)
+			weather["wind"]["all"] = "något målnigt"
+		elif (weather["clouds"]["all"] < 25)
+			weather["wind"]["all"] = "lätt målnigt"
+		elif (weather["clouds"]["all"] < 5)
+			weather["wind"]["all"] = ""
 		
 		msg.reply(
-			'In ${wether[name]},${wether[sys][country]} är det ${wether[main][temp]} grader och en ${wether[wind][speed]}m/s vind i en ${wether[wind][deg]} riktning, det är också ${wether[wind][all]}'
+			'In ${weather[name]},${weather[sys][country]} är det ${weather[main][temp]} grader och en ${weather[wind][speed]}m/s vind i en ${weather[wind][deg]} riktning, det är också ${weather[wind][all]}'
 		)
 	}
 
