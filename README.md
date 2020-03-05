@@ -45,7 +45,7 @@ A general purposes discord bot named Lester.
   - **§alarm** ('when you want it to go off')
     - Goes off at the given time
 ### Statistics
-  - **§stats cs:go** ('user')
+  - **§stats csgo** ('user')
     - Counter-Strike: Global offensive statistics
   - **§stats r6s** ('user/group')
     - Rainbow six siege statistics
