@@ -8,7 +8,7 @@ A general purposes discord bot named Lester.
 ## Key Features
 - Join & Leave the channel
 - Play music on demand 
-- Chech the weather status (Mainly in Tullinge)
+- Chech the weather status (The preset is Tullinge)
 - Text to speech
 - Start an alarm or timer
 - Check statistics in Counter-strike: Global offensive
