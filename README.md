@@ -6,7 +6,7 @@ A general purposes discord bot named Lester.
 ## Reqirements
 - Node.js
 ## Key Features
-- Join & Leave
+- Join & Leave the channel
 - Play music on demand 
 - Chech the weather status (Mainly in Tullinge)
 - Text to speech
