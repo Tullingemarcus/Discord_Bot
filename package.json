@@ -4,6 +4,8 @@
   "description": "",
   "main": "bot.js",
   "dependencies": {
+    "async": "^3.2.0",
+    "await": "^0.2.6",
     "discord.io": "^2.5.3",
     "discord.js": "^11.6.1",
     "discord.js-commando": "^0.10.0",

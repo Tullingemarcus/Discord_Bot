@@ -33,6 +33,6 @@ var command_list = (
     "weather city",
     "help",
     "einar",
-    "tts",
+    "tts"
 )
   
